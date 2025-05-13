@@ -1,0 +1,94 @@
+/* 조상 자손 선택자 */
+header ul {
+    background-color: green;
+    color: white;
+}
+
+/* 클래스선택자 */
+.g1 {
+    /* 배경색과 글자색 */
+    background-color: blue;
+    color: white;
+    /* 가로와 세로 */
+    width: 50%;
+    height: 80px;
+    /* 안쪽여백 */
+    padding: 10px;
+    /* 바깥여백 */
+    margin: 10px;
+    /* 패딩과 테두리를 포함 */
+    box-sizing: border-box;
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* 클래스선택자 */
+.g2 {
+    background-color: red;
+    color: white;
+}
+
+/* 아이디선택자 */
+#html {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* 부모 자식 선택자 */
+footer>ul {
+    background-color: black;
+    color: white;
+}
+
+/* 전체선택자 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 속성선택자 */
+h2[class] {
+    color: yellow;
+}
+
+/* 그룹 */
+#s1,#s2 {
+    background-color: gainsboro;
+}
+strong{
+    display: inline block;
+    background-color: brown;
+    color: white;
+
+    width: 50%;
+    height: 40px;
+}
+/* 구글폰트 */
+article>p{
+      font-family: "Black Han Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+/* flex박스 설정 */
+.fbox {
+display: flex;
+flex-direction: row;
+
+}
+.fbox>div{
+    margin-right: 20px;
+}
+/* 이미지 둥글게 */
+img{
+    border-radius: 25%;
+}
+/* 하이퍼링크 설정 */
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
