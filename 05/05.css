@@ -1,0 +1,65 @@
+.nlist,.btArea {
+    width: 80%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nlist {
+    height: 80%;
+}
+
+#nlist > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    font-weight: bold;
+    
+    
+    margin: 5px;
+}
+
+.sp0 {
+    background-color: brown;
+    
+}
+
+.sp1 {
+    background-color:coral;
+    
+}
+
+.sp2 {
+    background-color: darkgreen;
+   
+}
+
+.sp3 {
+    background-color: darkblue;
+    
+}
+
+.sp4 {
+    background-color: blueviolet;
+    
+}
+.sp5 {
+    background-color: aqua;
+}
+.spBonus {
+    background-color: chocolate;
+}
+
+.spPlus {
+    
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
