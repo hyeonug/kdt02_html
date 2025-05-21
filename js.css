@@ -1,25 +1,21 @@
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-main > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-button{
-    background-color: blue;
-    color: white;
+button {
+  background-color: blue;
+  color: white;
 
-    padding: 5px 10px;
-    border-radius: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
 
-    border: 0px;
+  border: 0px;
 }
-button:hover{
-    background-color: brown;
-    cursor: pointer;
+
+button:hover {
+  background-color:brown;
+  cursor: pointer;
 }
