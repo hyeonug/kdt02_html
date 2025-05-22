@@ -1,16 +1,16 @@
 form {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    /* background-color: aqua; */
-    border: 1px dotted gray;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* background-color: aqua; */
+  border: 1px dotted gainsboro;
 }
 
 .mdiv {
   width: 45%;
   height: 50px;
-  margin-left: 30px;
+  margin-left: 5%;
 }
 
 .mdiv> select {
@@ -25,4 +25,16 @@ form {
  
 [readonly] {
   background-color: beige;
+}
+
+label {
+  font-weight: bold;
+}
+
+[for = txt1] {
+  color: brown; 
+}
+
+[for = txt2] {
+  color: blue;
 }
