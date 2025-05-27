@@ -1,0 +1,88 @@
+form {
+  width: 90%;
+  height: 60px;
+
+  background-color: aliceblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dt {
+  height: 30px;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size: small;
+}
+
+li:hover {
+  background-color: aliceblue;
+}
+
+.sp {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color:brown;
+  color: white;
+  border-radius: 5px;
+
+  width: 25px;
+  height: 25px;
+
+}
+
+#mv {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+#mvList {
+  width: 70%;
+  /* border: 1px solid gray; */
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#mvPoster {
+  width: 20%; 
+  
+  padding-top: 20px;
+  /* border: 1px solid gray; */
+}
+
+img {
+  width : 90%;
+  border: 1px solid gray;
+}
+
+fieldset {
+  width: 320px;
+  height: 40px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  padding: 0px 10px;
+}
+
+label {
+  width: 90px;
+  display: inline-flex;
+  margin-right: 10px; 
+
+  font-size: small;
+}

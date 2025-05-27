@@ -1,0 +1,35 @@
+.row {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+    
+}
+
+.col {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid gainsboro;
+}
+
+.row > button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 160px;
+}
+#msg {
+    font-size: large;
+    color: brown;
+    font-weight: bold;
+}
+
+img {
+  width : 90%;
+  height : 90%;
+}

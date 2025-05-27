@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KDT2기 자바스크립트</title>
+  <link rel="stylesheet" type="text/css" href="../index.css/index.css">
+  <link rel="stylesheet" type="text/css" href="../js.css">
+  <link rel="stylesheet" type="text/css" href="./11.css">
+  <script src="./11.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>K-digital 2기 자바스크립트 박스오피스</h1>
+  </header>
+  <main>
+     <form>
+      <input type="date" id="dt" name="dt">
+      <fieldset>
+        <!-- <legend>영화별조회</legend> -->
+        <label>
+          <input type="radio" name="mvType" id="mvType1" value="K">한국영화
+        </label>
+        <input type="radio" name="mvType" id="mvType2" value="F">
+        <label for="mvType2">외국영화</label>
+        <label>
+          <input type="radio" name="mvType" id="mvType3" value="D" checked>전체
+        </label>
+      </fieldset>
+      <button>조회</button>
+    </form>
+    <section id="mv">
+      <div id="mvPoster">
+      </div>
+      <div id="mvList">
+        <ul></ul> 
+      </div>
+      
+    </section>
+
+  </main>
+  <footer>
+    <ul>
+      <li><a href="../index.html">홈으로</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
