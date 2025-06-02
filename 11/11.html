@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- asome 아이콘 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>KDT2기 자바스크립트</title>
   <link rel="stylesheet" type="text/css" href="../index.css/index.css">
-  <link rel="stylesheet" type="text/css" href="../js.css">
-  <link rel="stylesheet" type="text/css" href="./11.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="../js.css">  
+  <link rel="stylesheet" type="text/css" href="./11.css"> 
   <script src="./11.js"></script>
 </head>
 
 <body>
   <header>
-    <h1>K-digital 2기 자바스크립트 박스오피스</h1>
+    <h1>K-digital 2기 자바스크립트 </h1>
   </header>
   <main id="mvMain">
-    <div class="divDt">
-      <input type="date" id="dt" name="dt">
-    </div>
-    <ul class="mvul">
 
-    </ul>
+      <div class="divDt">
+        <input type="date" name="dt" id ="dt" />
+      </div>
+      <form class="divRadio">
+        <input type="radio" name="r" id ="r1" value="r1" checked/> 
+        <label for="r1">전체</label>
+        <input type="radio" name="r" id ="r2" value="r2"/> 
+        <label for="r2">상업</label>
+        <input type="radio" name="r" id ="r3" value="r3" /> 
+        <label for="r3">독립예술</label>
+        <button> 조 회 </button>
+      </form>
+          
+    <div class="content">
+      <div class="poster">
+      
+      </div>
+      <ul class="mvul">
+
+      </ul>
+    </div>
   </main>
   <footer>
     <ul>
