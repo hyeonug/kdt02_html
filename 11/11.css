@@ -1,62 +1,113 @@
-#mvMain{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-.divDt{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: aliceblue;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.mvul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.spRank{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    
-    
-}
-
-.spName:hover{
-    color: brown;
-}
-
-
-main ul {
-  list-style: none;
-  padding: 0;
-}
-
-main ul li {
+#mvMain {
   display: flex;
-  justify-content: space-between; /* 아이템 간 양쪽 정렬 */
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
-  padding: 5px 10px;
-  border-bottom: 1px solid #ccc;
 }
 
-.spRankChange {
-  min-width: 20px;
-  text-align: right;
+.poster {
+  width: 150px;
+  height: 200px;
+  border: 1px solid gainsboro;
+  margin: 10px 20px; 
 }
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.divDt, .mvul {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.divDt, .divRadio {
+  background-color: aliceblue;
+  height: 40px; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.divRadio {
+  display: flex; 
+ }
+
+.divRadio > button {
+  width: 100px;
+  margin-left: 20px;
+  background-color: green;
+}
+.divRadio > button:hover {
+  background-color: brown;
+}
+
+input[type=radio], label {
+  /* border: 1px solid black; */
+  display: inline-flex;
+}
+
+
+.mvul {
+  list-style: none;
+  width: 80%;
+}
+
+.mvul > li {
+  display: flex; 
+  border: none;
+  margin: 1px;
+  font-size: 12px;
+}
+
+.mvul > li:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.spRank, .sp, .spR, .spB {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+}
+
+.spR {
+  color: red;
+}
+
+.spB {
+  color: blue;
+}
+
+.spRank {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.spMv {
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+}
+
+input[type=date] {
+  width: 50%;
+  height: 20px;
+  margin-top: 10px;
+}
+
