@@ -6,5 +6,6 @@
 
 ##JS
 
-##Vercel Hosting
-kdt02-html.vercel.app
+## Hosting 주소
++ https://kdt02-html.vercel.app
+
