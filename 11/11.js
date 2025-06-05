@@ -14,7 +14,7 @@ const yesterday = () => {
   // return y+String(m).padStart(2, '0')+String(d).padStart(2,'0') ;
 }
 const getPoster = (movieName, callback) => {
-  const tmdbKey = "fbb253eea2feff796a6b932a28a236e5";
+  const tmdbKey = "";
   let url = `https://api.themoviedb.org/3/search/movie?api_key=${tmdbKey}&query=${encodeURIComponent(movieName)}&language=ko`;
 
   fetch(url)
