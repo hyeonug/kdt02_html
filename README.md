@@ -5,3 +5,6 @@
 ##CSS
 
 ##JS
+
+##Vercel Hosting
+kdt02-html.vercel.app
