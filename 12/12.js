@@ -1,4 +1,4 @@
-const SERVICE_KEY = 'uo%2FkP%2FvjK3cPQRqeJrvXqGlLCbxtxlJws51ULgnh4qhRwc59Z5ReFiii1r%2FYIvCmJeXld6zhWOf4a%2B21NZipyg%3D%3D'
+const SERVICE_KEY = ''
 
 function search() {
     const keyword = document.getElementById('searchInput').value.trim();
